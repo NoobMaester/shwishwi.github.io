@@ -1,0 +1,197 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    color: white;
+    margin: 0;
+    background-image: url(images/3.png);
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+header .ontop{
+    display: flex;
+    justify-content: space-between;
+}
+.ontop h1{
+    font-size: 24px;
+}
+.ontop ul{
+    list-style: none;
+}
+.ontop li{
+    display: inline;
+    padding: 5px;
+}
+.ontop a{
+    color: gray;
+    text-decoration: none;
+    font-size: 14px;
+}
+.ontop a:hover{
+    color: lightseagreen;
+    font-weight: bold;
+}
+header .showcase{
+    text-align: center;
+    margin-top: 150px;
+}
+.showcase h1{
+    font-size: 48px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: normal;
+}
+.showcase p{
+    font-size: 12px;
+    margin: 10px 50px;
+}
+header .buttons{
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+}
+.button-1{
+    color: white;
+    padding: 10px 40px;
+    background: lightseagreen;
+    border: none;
+    margin: 10px;
+}
+.button-1:hover{
+    background: #eeeeee;
+    color: black;
+    font-weight: bold;
+}
+.button-2{
+    color: white;
+    padding: 10px 30px;
+    background: black;
+    border: none;
+    margin: 10px;
+}
+.button-2:hover{
+    background: white;
+    color: black;
+    font-weight: bold;
+}
+
+/*SECTION*/
+section  ul{
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 0;
+}
+section li{
+    display: inline;
+    padding: 20px;
+    color: gray;
+}
+section .drk{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 50px;
+    padding-top: 60px;
+
+}
+.boxes{
+    display: flex;
+    margin: 20px;
+}
+.box{
+    text-align: center;
+    padding: 20px;
+}
+.box img{
+    background: lightseagreen;
+    width: 50px;
+    height: 56px;
+    border-radius: 42px;
+    padding: 20px;
+}
+.box h3{
+    margin: 10px;
+}
+.comp{
+    display: flex;
+}
+.comp img{
+    width: 480px;
+    flex-grow: 2;
+    padding: 20px;
+}
+.comp .side{
+    flex-grow: 1;
+}
+.side{
+    padding: 60px 20px;   
+}
+.side button{
+    margin: 0;
+}
+.button-3{
+    color: white;
+    padding: 10px 20px;
+    background: lightseagreen;
+    border: none;
+    margin: 10px;
+}
+.button-3:hover{
+    background: #eeeeee;
+    color: black;
+    font-weight: bold;
+    background: lightseagreen;
+}
+@media(max-width: 768px){
+    header ul{
+        text-align: center;
+        padding-left: 0;
+    }
+    header li a{
+        text-align: center;
+    }
+    .ontop a{
+        font-size: 18px;
+    }
+    header .ontop{
+        display: block;
+        text-align: center;
+
+    }
+    section li{
+        padding: 5px;
+    }
+    .boxes{
+        display: block;
+    }
+    .comp{
+        display: block;
+    }
+    .comp img{
+        width: 300px;
+        text-align: center;
+    }
+    .comp .side{
+        text-align: center;
+    }
+    section .drk{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 0;
+        margin: 0;
+    }
+    .button-1{
+        margin: 0;
+    }
+    .button-2{
+        margin: 5px;
+    }
+}
